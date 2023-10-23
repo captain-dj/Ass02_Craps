@@ -45,9 +45,9 @@ public class Main {
                 }
             }
 
-            System.out.println("Do you want to play again? (Y/N)");
+            System.out.println("Do you want to play again? (y/n)");
             String choice = scanner.nextLine().toLowerCase();
-            if (!choice.equals("Y")) {
+            if (!choice.equals("y")) {
                 break;
             }
         }
